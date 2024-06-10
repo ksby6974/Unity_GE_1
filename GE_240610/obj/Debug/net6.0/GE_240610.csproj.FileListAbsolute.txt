@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\Main\GE_240610\bin\Debug\net6.0\GE_240610.exe
+C:\Users\Administrator\Desktop\Main\GE_240610\bin\Debug\net6.0\GE_240610.deps.json
+C:\Users\Administrator\Desktop\Main\GE_240610\bin\Debug\net6.0\GE_240610.runtimeconfig.json
+C:\Users\Administrator\Desktop\Main\GE_240610\bin\Debug\net6.0\GE_240610.dll
+C:\Users\Administrator\Desktop\Main\GE_240610\bin\Debug\net6.0\GE_240610.pdb
+C:\Users\Administrator\Desktop\Main\GE_240610\obj\Debug\net6.0\GE_240610.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Main\GE_240610\obj\Debug\net6.0\GE_240610.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Main\GE_240610\obj\Debug\net6.0\GE_240610.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Main\GE_240610\obj\Debug\net6.0\GE_240610.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Main\GE_240610\obj\Debug\net6.0\GE_240610.dll
+C:\Users\Administrator\Desktop\Main\GE_240610\obj\Debug\net6.0\refint\GE_240610.dll
+C:\Users\Administrator\Desktop\Main\GE_240610\obj\Debug\net6.0\GE_240610.pdb
+C:\Users\Administrator\Desktop\Main\GE_240610\obj\Debug\net6.0\GE_240610.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Main\GE_240610\obj\Debug\net6.0\ref\GE_240610.dll
