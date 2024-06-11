@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Main\\GE_240610\\240610 단일 연결 리스트.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240610\\240610 단일 연결 리스트.csproj",
       "projectName": "240610 단일 연결 리스트",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Main\\GE_240610\\240610 단일 연결 리스트.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240610\\240610 단일 연결 리스트.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\Main\\GE_240610\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240610\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

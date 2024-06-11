@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "240611 양방향 연결 리스트/1.0.0": {
+        "runtime": {
+          "240611 양방향 연결 리스트.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "240611 양방향 연결 리스트/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
