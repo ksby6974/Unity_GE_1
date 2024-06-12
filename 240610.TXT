@@ -24,3 +24,6 @@ PushFront()
 		int size;
 		Node head;
     }
+
+There are too many cases depending on combo proration, start-up move, distance, height or etc.
+That's why you should do definite combos to make sure you hit a pilebunker you can pick up.

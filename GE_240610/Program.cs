@@ -134,23 +134,64 @@
 
         public void Show()
         {
-            int iCount = 0;
-            Node? currentNode = head;
-
-            while(currentNode != null)
+            if (GetSize() > 0)
             {
-                iCount += 1;
-                Console.WriteLine($"【{iCount}】:{currentNode.data}");
-                currentNode = currentNode.next;
-            }
-
-            if (iCount > 0)
-            {
+                Console.WriteLine($"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
                 Console.WriteLine($"연결 리스트 크기 : {GetSize()}");
+                ShowNext();
+                Console.WriteLine($"─────────────────────────────────");
+
+                int iCount = 0;
+                Node? currentNode = head;
+
+                while (currentNode != null)
+                {
+                    iCount += 1;
+                    Console.Write($"【{iCount}】［");
+
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.Write($"{currentNode.data}");
+                    Console.ResetColor();
+
+                    if (currentNode.next != null)
+                    {
+                        Console.Write($"/{currentNode.next.data}］");
+                    }
+                    else
+                    {
+                        Console.Write($"/null］");
+                    }
+
+                    currentNode = currentNode.next;
+                    Console.WriteLine();
+                }
             }
             else
             {
                 Console.WriteLine($"Show : Linked List is Empty.");
+            }
+        }
+
+        public void ShowNext()
+        {
+            if (head != null)
+            {
+                Console.Write($"Head - ［");
+
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.Write($"{head.data}");
+                Console.ResetColor();
+
+                if (head.next != null)
+                {
+                    Console.Write($"/{head.next.data}］");
+                }
+                else
+                {
+                    Console.Write($"/null］");
+                }
+
+                Console.WriteLine();
             }
         }
     }
@@ -168,7 +209,6 @@
             singleLinkedList.PushFront(10);
             singleLinkedList.Show();
 
-            Console.WriteLine($"\n────────────────────\n");
             singleLinkedList.RemoveBack();
             singleLinkedList.Show();
         }
