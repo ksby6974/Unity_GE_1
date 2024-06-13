@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("240610 단일 연결 리스트")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("GE_240613")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("240610 단일 연결 리스트")]
-[assembly: System.Reflection.AssemblyTitleAttribute("240610 단일 연결 리스트")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47b1704e884706bdd551446fd4af7a1ae597c9e0")]
+[assembly: System.Reflection.AssemblyProductAttribute("GE_240613")]
+[assembly: System.Reflection.AssemblyTitleAttribute("GE_240613")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

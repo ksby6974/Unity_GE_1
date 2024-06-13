@@ -28,19 +28,45 @@ namespace GE_240611
         {
             if (position == tail)
             {
-                //Console.WriteLine($"Tail 뒤에는 값을 삽입할 수 없습니다.");
                 PushBack(data);
             }
             else
             {
-                Node? node = new Node();
-                node.data = data;
-                node.pre = position;
-                node.next = position.next;
+                if (position == null)
+                {
+                    Console.WriteLine($"AddAfter : Node에 값을 삽입할 수 없습니다.");
+                }
+                else
+                {
+                    Node? node = new Node();
+                    node.data = data;
+                    node.pre = position;
+                    node.next = position.next;
 
-                position.next!.pre = node;
-                position.next = node;
+                    position.next!.pre = node;
+                    position.next = node;
+                }
             }
+        }
+
+        public bool Find(T data)
+        {
+            bool bResult = false;
+            Node? node = head;
+
+            while (node != null)
+            {
+                if (node.data != null && data!.ToString() == node.data.ToString())
+                {
+                    bResult = true;
+                    //Console.WriteLine($"Find : 값 {data}은 리스트에 존재합니다.");
+                    break;
+                }
+         
+                node = node.next;
+            }
+
+            return bResult;
         }
 
         public int GetSize()
@@ -104,6 +130,67 @@ namespace GE_240611
 
                 node.data = data;
                 node.pre = null;
+            }
+        }
+
+        public void Remove(T data)
+        {
+            bool bTemp = false;
+            Node? node = head;
+
+            if (node == null)
+            {
+                Console.WriteLine($"Remove : DoubleLinkedList 비었음");
+            }
+            else
+            {
+                if (Find(data) == true)
+                {
+                    while (node != null)
+                    {
+                        if (node.data != null && data!.ToString() == node.data.ToString())
+                        {
+                            bTemp = true;
+                            break;
+                        }
+                        node = node.next;
+                    }
+
+                    if (!bTemp)
+                        return;
+
+                    // 값이 head이자 tail
+                    if (head == tail)
+                    {
+                        head = null;
+                        tail = null;
+                    }
+                    // 값이 head
+                    else if (node == head)
+                    {
+                        //node!.next!.pre = null; 
+                        //head = node.next;
+                        RemoveFront();
+                    }
+                    // 값이 tail
+                    else if (node == tail)
+                    {
+                        //node.pre!.next = null;
+                        //tail = node.pre;
+                        RemoveBack();
+                    }
+                    // 값이 head와 tail 사이
+                    else
+                    {
+                        node!.pre!.next = node.next;
+                        node.next!.pre = node.pre;
+                        node = null;
+                    } 
+                }
+                else
+                {
+                    Console.WriteLine($"Remove : 리스트에 {data}값은 존재하지 않습니다.");
+                }
             }
         }
 
@@ -270,15 +357,20 @@ namespace GE_240611
             doubleLinkedList.PushFront(40);
             doubleLinkedList.PushFront(30);
             doubleLinkedList.PushFront(10);
-
-            doubleLinkedList.Show();
-            Console.WriteLine($"＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝");
-
             doubleLinkedList.AddAfter(doubleLinkedList.SearchFirst(), 20);
-            doubleLinkedList.AddAfter(doubleLinkedList.SearchLast(), 60);
+
             doubleLinkedList.Show();
 
-            //Console.WriteLine($"{doubleLinkedList.SearchFirst().data}, {doubleLinkedList.SearchLast().data}");
+            Console.WriteLine($"\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝");
+
+
+            doubleLinkedList.Remove(70);
+            doubleLinkedList.Remove(10);
+            doubleLinkedList.Remove(30);
+            doubleLinkedList.Remove(50);
+            doubleLinkedList.Show();
+
+            Console.WriteLine($"\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝");
         }
     }
 }

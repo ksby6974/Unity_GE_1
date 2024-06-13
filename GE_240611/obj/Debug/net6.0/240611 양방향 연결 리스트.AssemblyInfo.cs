@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("240611 양방향 연결 리스트")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b921a7d9c423609a3d9a9005bd5827bd544b91a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47b1704e884706bdd551446fd4af7a1ae597c9e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("240611 양방향 연결 리스트")]
 [assembly: System.Reflection.AssemblyTitleAttribute("240611 양방향 연결 리스트")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
