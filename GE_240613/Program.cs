@@ -23,20 +23,16 @@ namespace GE_240613
             public int GetSize()
             {
                 int iCount = 0;
-
                 Node? current = head;
-                Node? end = head;
 
                 while (current != null)
                 {
                     iCount += 1;
-                    if (current.next == end)
+                    current = current.next;
+
+                    if (current == head)
                     {
                         break;
-                    }
-                    else
-                    {
-                        current = current.next;
                     }
                 }
 
@@ -45,40 +41,66 @@ namespace GE_240613
 
             public void PushBack(T data)
             {
-                Node? node = new Node();
+                Node? newnode = new Node();
 
                 if (head == null)
                 {
-                    head = node;
-                    node.data = data;
-                    node.next = head;
+                    head = newnode;
+                    newnode.data = data;
+                    newnode.next = head;
                 }
                 else
                 {
-                    node.data = data;
-                    node.next = head;
-                    head = node;
+                    Node? node = head;
+
+                    while (node != null)
+                    {
+                        if (node.next == head)
+                        {
+                            node.next = newnode;
+                            break;
+                        }
+                        else
+                        {
+                            node = node.next;
+                        }
+                    }
+
+                    newnode.data = data;
+                    newnode.next = head;
                 }
             }
 
             public void PushFront(T data)
             {
-                Console.WriteLine($"선삽입:{data}");
-
-                Node? node = new Node();
+                Node? newnode = new Node();
 
                 if (head == null)
                 {
-                    head = node;
-                    node.data = data;
-                    node.next = node;
+                    head = newnode;
+                    newnode.data = data;
+                    newnode.next = head;
                 }
                 else
                 {
-                    node.data = data;
-                    node.next = head;
-                    head.next = node;
-                    node = head;
+                    Node? node = head;
+
+                    while (node != null)
+                    {
+                        if (node.next == head)
+                        {
+                            node.next = newnode;
+                            break;
+                        }
+                        else
+                        {
+                            node = node.next;
+                        }
+                    }
+
+                    newnode.data = data;
+                    newnode.next = head;
+                    head = newnode;
                 }
             }
 
@@ -96,7 +118,9 @@ namespace GE_240613
                     }
                     else
                     {
-                        head.next = head.next!.next;
+                        //head = head.next.next;
+
+                        head = head.next;
                     }
                 }
             }
@@ -147,34 +171,22 @@ namespace GE_240613
                     {
                         iCount += 1;
                         Console.Write($"【{iCount}】:［");
-
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write($"{current.data}");
                         Console.ResetColor();
+                        Console.Write($"/{current.next.data}］");
+                        Console.WriteLine();
+                        current = current.next;
 
-                        if (current.next != null)
-                        {
-                            Console.Write($"/{current.next.data}］");
-                        }
-                        else
-                        {
-                            Console.Write($"/null］");
-                        }
-
-                        if (current.next == head)
+                        if (current == head)
                         {
                             break;
                         }
-                        else
-                        {
-                            current = current.next;
-                        }
-
-                        Console.WriteLine();
                     }
                 }
             }
 
+            
             public void ShowDetail()
             {
                 Node? current = head;
@@ -216,9 +228,15 @@ namespace GE_240613
             circleLinkedList.PushFront(30);
             circleLinkedList.PushFront(20);
             circleLinkedList.PushFront(10);
-           // circleLinkedList.PushBack(10);
-            //circleLinkedList.PushBack(20);
-            //circleLinkedList.PushBack(30);
+
+
+            circleLinkedList.PushBack(60);
+            circleLinkedList.PushBack(70);
+            circleLinkedList.PushBack(80);
+            circleLinkedList.PushBack(90);
+            circleLinkedList.PushBack(100);
+
+            circleLinkedList.RemoveFront();
 
             circleLinkedList.Show();
         }

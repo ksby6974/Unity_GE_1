@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("240613 원형 연결 리스트")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f60e93f8362a243f961189157f323f629d5ff64b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78fcd78855c8a623842a1c9c92a5df60a1120cb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("240613 원형 연결 리스트")]
 [assembly: System.Reflection.AssemblyTitleAttribute("240613 원형 연결 리스트")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

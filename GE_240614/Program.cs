@@ -1,9 +1,4 @@
-﻿using System.Runtime;
-using System.Drawing;
-using System.Security.Cryptography.X509Certificates;
-using System.ComponentModel;
-
-namespace GE_240614
+﻿namespace GE_240614
 {
     public class Stack<T>
     {
@@ -16,11 +11,11 @@ namespace GE_240614
 
         private readonly int arraySize;
         private int top;
-        private T? [] array;
+        private T?[] array;
 
         public void Push(T data)
         {
-            if (top >= arraySize -1)
+            if (top >= arraySize - 1)
             {
                 Console.WriteLine($"Stack : Overflow");
             }
@@ -38,12 +33,12 @@ namespace GE_240614
             {
                 if (array[i]!.ToString() == data!.ToString())
                 {
-                    Console.WriteLine($"Contains : {data} 값이 존재합니다.");
+                    //Console.WriteLine($"Contains : {data} 값이 존재합니다.");
                     return true;
                 }
             }
 
-            Console.WriteLine($"Contains : {data} 값 없음…");
+            //Console.WriteLine($"Contains : {data} 값 없음…");
             return false;
         }
 
@@ -51,7 +46,7 @@ namespace GE_240614
         {
             if (top > -1)
             {
-                Console.WriteLine($"Peek : {top + 1}번째 {array[top]} 값");
+                //Console.WriteLine($"Peek : {top + 1}번째 {array[top]} 값");
                 return array[top]!;
             }
             else
@@ -96,7 +91,6 @@ namespace GE_240614
                 return false;
         }
 
-
         public void Show()
         {
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -138,14 +132,14 @@ namespace GE_240614
             stack.Push(40);
             stack.Push(50);
 
-            //stack.Pop();
+            stack.Pop();
             //stack.Peek();
             //stack.Contains(50);
 
             stack.Show();
 
-            CheckBracket("{{(}}");
-            CheckBracket("()");
+            CheckBracket("{{(1234}}");
+            CheckBracket("[((asdf))]");
         }
 
         static public bool CheckBracket(string sMain)
@@ -158,64 +152,59 @@ namespace GE_240614
             //값 넣기
             for (int i = 0; i < cTemp.Length; i++)
             {
-                stack.Push(cTemp[i]);
-            }
-
-            // 하나하나씩 제거
-            for (int i = stack.GetSize(); i > stack.GetSize(); i--)
-            {
-                if (cTemp[i].ToString() == "}")
+                if (CheckOpen(cTemp[i]) == true)
                 {
-                    if (cTemp[i].ToString() == "{")
-                    {
-                        stack.Pop();
-                    }
-                    else
-                    {
-                        bResult = false;
-                        break;
-                    }
+                    stack.Push(cTemp[i]);
                 }
-                else if (cTemp[i].ToString() == ")")
-                {
-                    if (cTemp[i].ToString() == "(")
-                    {
-                        stack.Pop();
-                    }
-                    else
-                    {
-                        bResult = false;
-                        break;
-                    }
-                }
-                else if (cTemp[i].ToString() == "]")
-                {
-                    if (cTemp[i].ToString() == "[")
-                    {
-                        stack.Pop();
-                    }
-                    else
-                    {
-                        bResult = false;
-                        break;
-                    }
-                }
-                else
+                else if (CheckClosed(cTemp[i], stack.Peek()) == true)
                 {
                     stack.Pop();
                 }
             }
 
-            if (bResult == true)
+            stack.Show();
+
+            if (stack.IsEmpty() == true)
             {
                 Console.WriteLine($"{sMain} 결점 없음");
             }
             else
             {
+                bResult = false;
                 Console.WriteLine($"{sMain} 오작동");
             }
 
             return bResult;
+        }
+
+        static public bool CheckOpen(char c)
+        {
+            if ((c == '(') || (c == '{') || (c == '['))
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        static public bool CheckClosed(char c, char v)
+        {
+            if (c == ')' && v == '(')
+            {
+                return true;
+            }
+
+            if (c == '}' && v == '{')
+            {
+                return true;
+            }
+
+            if (c == ']' && v == '[')
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }

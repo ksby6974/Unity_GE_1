@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240614\\GE_240614.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\lashtemp\\Unity_GE_1\\GE_240614\\GE_240614.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240614\\GE_240614.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\lashtemp\\Unity_GE_1\\GE_240614\\GE_240614.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240614\\GE_240614.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\lashtemp\\Unity_GE_1\\GE_240614\\GE_240614.csproj",
         "projectName": "GE_240614",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240614\\GE_240614.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\lashtemp\\Unity_GE_1\\GE_240614\\GE_240614.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240614\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\lashtemp\\Unity_GE_1\\GE_240614\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
