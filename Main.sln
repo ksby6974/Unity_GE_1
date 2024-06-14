@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240610 단일 연결 리스
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240611 양방향 연결 리스트", "GE_240611\240611 양방향 연결 리스트.csproj", "{9CB25857-A52C-430A-AD39-BD09B8EB4375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GE_240613", "GE_240613\GE_240613.csproj", "{44494114-FB38-450A-83D2-9F84B200E5FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240613 원형 연결 리스트", "GE_240613\240613 원형 연결 리스트.csproj", "{44494114-FB38-450A-83D2-9F84B200E5FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GE_240614", "GE_240614\GE_240614.csproj", "{9CAC7058-4405-43FA-8A59-6CEEC244F943}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{44494114-FB38-450A-83D2-9F84B200E5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44494114-FB38-450A-83D2-9F84B200E5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44494114-FB38-450A-83D2-9F84B200E5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAC7058-4405-43FA-8A59-6CEEC244F943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAC7058-4405-43FA-8A59-6CEEC244F943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAC7058-4405-43FA-8A59-6CEEC244F943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAC7058-4405-43FA-8A59-6CEEC244F943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

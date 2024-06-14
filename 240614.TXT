@@ -1,0 +1,20 @@
+Show() {
+}
+
+
+public void PushFront(T data)
+{
+	Node? node = new Node();
+
+	if (head == null)
+	{
+		head = node;
+		node.data = data;
+		head.next = node;
+	}
+	else
+	{
+		node.data = data;
+		head.next = node;
+	}
+}
