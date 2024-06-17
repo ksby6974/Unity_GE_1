@@ -1,0 +1,67 @@
+
+            public void PushFront_Mine(T data)
+            {
+                Node? newnode = new Node();
+
+                if (head == null)
+                {
+                    head = newnode;
+                    newnode.data = data;
+                    newnode.next = head;
+                }
+                else
+                {
+                    Node? node = head;
+
+                    while (node != null)
+                    {
+                        if (node.next == head)
+                        {
+                            node.next = newnode;
+                            break;
+                        }
+                        else
+                        {
+                            node = node.next;
+                        }
+                    }
+
+                    newnode.data = data;
+                    newnode.next = head;
+                    head = newnode;
+                }
+            }
+
+
+
+            public void PushBack_Mine(T data)
+            {
+                Node? newnode = new Node();
+
+                if (head == null)
+                {
+                    head = newnode;
+                    newnode.data = data;
+                    newnode.next = head;
+                }
+                else
+                {
+                    Node? node = head;
+
+                    while (node != null)
+                    {
+                        if (node.next == head)
+                        {
+                            node.next = newnode;
+                            break;
+                        }
+                        else
+                        {
+                            node = node.next;
+                        }
+                    }
+
+                    newnode.data = data;
+                    newnode.next = head;
+                }
+            }

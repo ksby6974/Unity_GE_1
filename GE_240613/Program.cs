@@ -42,64 +42,34 @@ namespace GE_240613
             public void PushBack(T data)
             {
                 Node? newnode = new Node();
+                newnode.data = data;
 
                 if (head == null)
                 {
                     head = newnode;
-                    newnode.data = data;
                     newnode.next = head;
                 }
                 else
                 {
-                    Node? node = head;
-
-                    while (node != null)
-                    {
-                        if (node.next == head)
-                        {
-                            node.next = newnode;
-                            break;
-                        }
-                        else
-                        {
-                            node = node.next;
-                        }
-                    }
-
-                    newnode.data = data;
-                    newnode.next = head;
+                    newnode.next = head.next;
+                    head.next = newnode;
                 }
             }
 
             public void PushFront(T data)
             {
                 Node? newnode = new Node();
+                newnode.data = data;
 
                 if (head == null)
                 {
                     head = newnode;
-                    newnode.data = data;
                     newnode.next = head;
                 }
                 else
                 {
-                    Node? node = head;
-
-                    while (node != null)
-                    {
-                        if (node.next == head)
-                        {
-                            node.next = newnode;
-                            break;
-                        }
-                        else
-                        {
-                            node = node.next;
-                        }
-                    }
-
-                    newnode.data = data;
-                    newnode.next = head;
+                    newnode.next = head.next;
+                    head.next = newnode;
                     head = newnode;
                 }
             }
@@ -118,9 +88,7 @@ namespace GE_240613
                     }
                     else
                     {
-                        //head = head.next.next;
-
-                        head = head.next;
+                        head.next = head.next!.next;
                     }
                 }
             }
@@ -145,6 +113,9 @@ namespace GE_240613
                         {
                             current = current!.next;
                         }
+
+                        current!.next = head.next;
+                        head = current;
                     }
                 }
             }
@@ -174,7 +145,7 @@ namespace GE_240613
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write($"{current.data}");
                         Console.ResetColor();
-                        Console.Write($"/{current.next.data}］");
+                        Console.Write($"/{current.next!.data}］");
                         Console.WriteLine();
                         current = current.next;
 
@@ -223,12 +194,11 @@ namespace GE_240613
         {
             CircleLinkedList<int> circleLinkedList = new CircleLinkedList<int>();
 
-            circleLinkedList.PushFront(50);
-            circleLinkedList.PushFront(40);
-            circleLinkedList.PushFront(30);
-            circleLinkedList.PushFront(20);
-            circleLinkedList.PushFront(10);
-
+            //circleLinkedList.PushFront(10);
+            //circleLinkedList.PushFront(20);
+            //circleLinkedList.PushFront(30);
+            //circleLinkedList.PushFront(40);
+            //circleLinkedList.PushFront(50);
 
             circleLinkedList.PushBack(60);
             circleLinkedList.PushBack(70);
@@ -236,7 +206,7 @@ namespace GE_240613
             circleLinkedList.PushBack(90);
             circleLinkedList.PushBack(100);
 
-            circleLinkedList.RemoveFront();
+            //circleLinkedList.RemoveFront();
 
             circleLinkedList.Show();
         }

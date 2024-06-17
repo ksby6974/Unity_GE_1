@@ -11,6 +11,7 @@
 
         private readonly int arraySize;
         private int top;
+        private int iCount;
         private T?[] array;
 
         public void Push(T data)
@@ -21,6 +22,7 @@
             }
             else
             {
+                iCount++;
                 array[++top] = data;
             }
 
@@ -65,9 +67,15 @@
             }
             else
             {
+                iCount--;
                 Console.WriteLine($"Pop : Stack에 값 없음");
                 return default!;
             }
+        }
+
+        public int GetCount()
+        {
+            return iCount;
         }
 
         public int GetSize()
@@ -162,16 +170,16 @@
                 }
             }
 
-            stack.Show();
+            //stack.Show();
 
             if (stack.IsEmpty() == true)
             {
-                Console.WriteLine($"{sMain} 결점 없음");
+                Console.WriteLine($"{sMain} 괄호 정상");
             }
             else
             {
                 bResult = false;
-                Console.WriteLine($"{sMain} 오작동");
+                Console.WriteLine($"{sMain} 괄호 오류");
             }
 
             return bResult;
