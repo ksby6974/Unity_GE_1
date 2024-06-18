@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240617\\GE_240617 선형Q.csproj",
-      "projectName": "GE_240617 선형Q",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240617\\GE_240617 선형Q.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240617\\240617 선형Q.csproj",
+      "projectName": "240617 선형Q",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240617\\240617 선형Q.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240617\\obj\\",
       "projectStyle": "PackageReference",

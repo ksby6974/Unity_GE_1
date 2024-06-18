@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\bin\Debug\net6.0\240617 환형Q 미완.exe
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\bin\Debug\net6.0\240617 환형Q 미완.deps.json
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\bin\Debug\net6.0\240617 환형Q 미완.runtimeconfig.json
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\bin\Debug\net6.0\240617 환형Q 미완.dll
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\bin\Debug\net6.0\240617 환형Q 미완.pdb
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\obj\Debug\net6.0\240617 환형Q 미완.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\obj\Debug\net6.0\240617 환형Q 미완.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\obj\Debug\net6.0\240617 환형Q 미완.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\obj\Debug\net6.0\240617 환형Q 미완.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\obj\Debug\net6.0\240617 환형Q 미완.sourcelink.json
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\obj\Debug\net6.0\240617 환형Q 미완.dll
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\obj\Debug\net6.0\refint\240617 환형Q 미완.dll
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\obj\Debug\net6.0\240617 환형Q 미완.pdb
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\obj\Debug\net6.0\240617 환형Q 미완.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240617_2\obj\Debug\net6.0\ref\240617 환형Q 미완.dll

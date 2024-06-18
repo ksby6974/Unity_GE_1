@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB99E554-3254-4D78-96D0-4A7FE75E0ACB}|GE_240617_2\\GE_240617_2.csproj|c:\\users\\administrator\\desktop\\unity_ge_1\\ge_240617_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB99E554-3254-4D78-96D0-4A7FE75E0ACB}|GE_240617_2\\GE_240617_2.csproj|solutionrelative:ge_240617_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E1CC266-2D8E-41B0-95D5-FB23E823B9BE}|GE_240618\\GE_240618.csproj|c:\\users\\administrator\\desktop\\unity_ge_1\\ge_240618\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1CC266-2D8E-41B0-95D5-FB23E823B9BE}|GE_240618\\GE_240618.csproj|solutionrelative:ge_240618\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240617_2\\Program.cs",
-              "RelativeDocumentMoniker": "GE_240617_2\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240617_2\\Program.cs",
-              "RelativeToolTip": "GE_240617_2\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAowBwAAAAiAAAA",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240618\\Program.cs",
+              "RelativeDocumentMoniker": "GE_240618\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240618\\Program.cs",
+              "RelativeToolTip": "GE_240618\\Program.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T06:32:16.032Z",
+              "WhenOpened": "2024-06-18T04:30:19.461Z",
               "EditorCaption": ""
             }
           ]
