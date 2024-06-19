@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E1CC266-2D8E-41B0-95D5-FB23E823B9BE}|GE_240618\\GE_240618.csproj|c:\\users\\administrator\\desktop\\unity_ge_1\\ge_240618\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E1CC266-2D8E-41B0-95D5-FB23E823B9BE}|GE_240618\\GE_240618.csproj|solutionrelative:ge_240618\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E50C230-6BEE-4D5E-9A09-FFE1B475179B}|GE_240619\\GE_240619.csproj|c:\\users\\administrator\\desktop\\unity_ge_1\\ge_240619\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E50C230-6BEE-4D5E-9A09-FFE1B475179B}|GE_240619\\GE_240619.csproj|solutionrelative:ge_240619\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E1CC266-2D8E-41B0-95D5-FB23E823B9BE}|GE_240618\\240618 \uBCA1\uD130.csproj|c:\\users\\administrator\\desktop\\unity_ge_1\\ge_240618\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E1CC266-2D8E-41B0-95D5-FB23E823B9BE}|GE_240618\\240618 \uBCA1\uD130.csproj|solutionrelative:ge_240618\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240618\\Program.cs",
               "RelativeDocumentMoniker": "GE_240618\\Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240618\\Program.cs",
               "RelativeToolTip": "GE_240618\\Program.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAACMAAAARAAAA",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T04:30:19.461Z",
+              "WhenOpened": "2024-06-19T04:27:15.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240619\\Program.cs",
+              "RelativeDocumentMoniker": "GE_240619\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240619\\Program.cs",
+              "RelativeToolTip": "GE_240619\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwCwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:06:59.467Z",
               "EditorCaption": ""
             }
           ]
