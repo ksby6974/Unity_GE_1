@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240619\\GE_240619.csproj",
-      "projectName": "GE_240619",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240619\\GE_240619.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240619\\240619 스트링.csproj",
+      "projectName": "240619 스트링",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240619\\240619 스트링.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240619\\obj\\",
       "projectStyle": "PackageReference",

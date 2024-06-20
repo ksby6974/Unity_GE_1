@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("240618 벡터")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba08a464088970e9d3e91ba2340c0afc06850d76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eedb4c4d2d60106350695fd4b2053f647e8ae234")]
 [assembly: System.Reflection.AssemblyProductAttribute("240618 벡터")]
 [assembly: System.Reflection.AssemblyTitleAttribute("240618 벡터")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
