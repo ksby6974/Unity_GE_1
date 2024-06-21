@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GE_240620 파일 입력호출")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eedb4c4d2d60106350695fd4b2053f647e8ae234")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8838b6fac2d0c3b12ee780e45199e03c14460af9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GE_240620 파일 입력호출")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GE_240620 파일 입력호출")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
