@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Linq;
 
 namespace GE_240621
 {
@@ -48,6 +49,25 @@ namespace GE_240621
                 return node; 
             }
 
+            public int GetCount()
+            {
+                int iResult = 0;
+
+                for (int i = 0; i < iArraySize; i++)
+                {
+                    Node node = buckets[i].head!;
+
+                    while (node != null)
+                    {
+                        iResult++;
+                        node = node.next!;
+                    }
+                }
+
+                return iResult;
+            }
+
+
             private int HashFunction(KEY key)
             {
                 return int.Parse(key!.ToString()!) % iArraySize;
@@ -74,23 +94,68 @@ namespace GE_240621
                 }
             }
 
+            public void Remove(KEY key) 
+            {
+                bool bResult = false;
+                //해시 함수를 통해서 값을 받는 임시 변수
+                int iIndex = HashFunction(key);
+                
+                //Node 탐색용 순회용 포인터
+                Node? node = buckets[iIndex].head;
+
+                // 이전 Node 저장용 포인터 선언
+                Node? prenode = null;
+
+                // currentNode 탐색
+                if (node == null)
+                {
+                    Console.WriteLine($"Remove : {key} is absence.");
+                    return;
+                }
+                else
+                {
+                    while (node != null)
+                    {
+                        if (node.key!.ToString() == key!.ToString())
+                        {
+                            // 삭제하고자 하는 key가 head
+                            if (node == buckets[iIndex].head)
+                            {
+                                buckets[iIndex].head = node.next;
+                            }
+                            else
+                            {
+                                prenode!.next = node.next;
+                            }
+
+                            buckets[iIndex].count--;
+                            return;
+                        }
+                        else
+                        {
+                            prenode = node;
+                            node = node.next;
+                        }
+                    }
+                }
+
+                Console.WriteLine($"Remove : {key} is absence.");
+            }
+
+
             public void Show()
             {
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine($"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
                 Console.ResetColor();
                 Console.Write($"HashTalbe :: ");
-                Console.WriteLine($"");
+                Console.WriteLine($"（{GetCount()}）");
 
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine($"─────────────────────────────────");
                 Console.ResetColor();
 
                 //Console.WriteLine($"HashTable : Is Empty");
-
-
-
-
                 for (int i = 0; i < iArraySize; i++)
                 {
                     Node node = buckets[i].head!;
@@ -103,8 +168,10 @@ namespace GE_240621
                         Console.ResetColor();
                         Console.Write($":");
                         Console.ForegroundColor = ConsoleColor.Blue;
-                        Console.WriteLine($"{node.value}");
+                        Console.Write($"{node.value}");
                         Console.ResetColor();
+
+                        Console.WriteLine($"");
                         node = node.next!;
                     }
                 }
@@ -116,9 +183,11 @@ namespace GE_240621
         {
             HashTable<int,string> hashTable = new HashTable<int, string>();
 
-            hashTable.Insert(10,"Punch");
+            hashTable.Insert(10, "Punch");
             hashTable.Insert(6, "Kick");
             hashTable.Insert(4, "Slash");
+
+            hashTable.Remove(4);
 
             hashTable.Show();
         }

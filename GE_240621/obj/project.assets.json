@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240621\\GE_240621.csproj",
-      "projectName": "GE_240621",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240621\\GE_240621.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240621\\240621 해시테이블.csproj",
+      "projectName": "240621 해시테이블",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240621\\240621 해시테이블.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240621\\obj\\",
       "projectStyle": "PackageReference",
