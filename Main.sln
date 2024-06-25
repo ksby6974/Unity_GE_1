@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240620 파일 입력호출"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240621 해시테이블", "GE_240621\240621 해시테이블.csproj", "{D7A31976-C092-436E-A6E9-AC581989AAC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "240624 이진트리", "240624 이진트리\240624 이진트리.csproj", "{87844772-19DB-4636-9F25-BDEA747387F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240624 이진트리", "240624 이진트리\240624 이진트리.csproj", "{87844772-19DB-4636-9F25-BDEA747387F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GE_240625", "GE_240625\GE_240625.csproj", "{D55176EB-633D-44E0-B009-EBE210DB28FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{87844772-19DB-4636-9F25-BDEA747387F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87844772-19DB-4636-9F25-BDEA747387F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87844772-19DB-4636-9F25-BDEA747387F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55176EB-633D-44E0-B009-EBE210DB28FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55176EB-633D-44E0-B009-EBE210DB28FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55176EB-633D-44E0-B009-EBE210DB28FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55176EB-633D-44E0-B009-EBE210DB28FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

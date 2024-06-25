@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("240624 이진트리")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03add701bbed4537d7762d15c03efddc80327f60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bdf01834470a1ea7819ee1c4b24d178090fa752")]
 [assembly: System.Reflection.AssemblyProductAttribute("240624 이진트리")]
 [assembly: System.Reflection.AssemblyTitleAttribute("240624 이진트리")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
