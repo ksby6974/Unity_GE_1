@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "240625 힙트리/1.0.0": {
+        "runtime": {
+          "240625 힙트리.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "240625 힙트리/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

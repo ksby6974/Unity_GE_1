@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("240614 스택")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bdf01834470a1ea7819ee1c4b24d178090fa752")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d20ac177b483fc9d0d7b316e48b229552ef465a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("240614 스택")]
 [assembly: System.Reflection.AssemblyTitleAttribute("240614 스택")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

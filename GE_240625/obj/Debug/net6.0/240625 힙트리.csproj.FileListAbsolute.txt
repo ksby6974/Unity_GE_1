@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\bin\Debug\net6.0\240625 힙트리.exe
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\bin\Debug\net6.0\240625 힙트리.deps.json
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\bin\Debug\net6.0\240625 힙트리.runtimeconfig.json
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\bin\Debug\net6.0\240625 힙트리.dll
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\bin\Debug\net6.0\240625 힙트리.pdb
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\obj\Debug\net6.0\240625 힙트리.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\obj\Debug\net6.0\240625 힙트리.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\obj\Debug\net6.0\240625 힙트리.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\obj\Debug\net6.0\240625 힙트리.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\obj\Debug\net6.0\240625 힙트리.sourcelink.json
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\obj\Debug\net6.0\240625 힙트리.dll
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\obj\Debug\net6.0\refint\240625 힙트리.dll
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\obj\Debug\net6.0\240625 힙트리.pdb
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\obj\Debug\net6.0\240625 힙트리.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Unity_GE_1\GE_240625\obj\Debug\net6.0\ref\240625 힙트리.dll

@@ -75,12 +75,13 @@
                     aArray[iSize] = default!;
                     --iSize;
 
+
                     int parent = 1;
                     int child = parent;
 
                     while (iSize > child)
                     {
-                        Console.WriteLine($"Remove : {parent}, {child}");
+                        //Console.WriteLine($"Remove : {parent}, {child}");
 
                         int iParent = int.Parse(aArray[parent]!.ToString()!);
                         int iChild = int.Parse(aArray[child]!.ToString()!);
@@ -102,6 +103,33 @@
                     }
                 }
             }
+
+            //정답용
+            public void Remove_R()
+            {
+                int parent = 1;
+
+                while (parent * 2 <= iSize)
+                {
+                    int child = parent * 2;
+
+                    // 왼쪽 자식 노드보다 오른쪽 자식 노드가 더 클 떄
+                    if (int.Parse(aArray[child].ToString()) < int.Parse(aArray[child + 1].ToString()))
+                    {
+                        child++;
+                    }
+
+                    // 부모 노드의 key값이 자식 노드의 key값보다 크다면 반복문 종료
+                    if (int.Parse(aArray[child].ToString()) < int.Parse(aArray[parent].ToString()))
+                    {
+                        break;
+                    }
+
+                    Swap(ref aArray[parent], ref aArray[child]);
+                    parent = child;
+                }
+            }
+
 
             public void Show()
             {
@@ -135,10 +163,10 @@
         {
             Heap<int> heap = new Heap<int>();
 
-            heap.Insert(5);
-            heap.Insert(7);
-            heap.Insert(2);
-            heap.Insert(10);
+            for (int i = 1; i < 8; i++)
+            {
+                heap.Insert(i);
+            }
 
             heap.Show();
 
