@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("240617 환형Q 미완")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d20ac177b483fc9d0d7b316e48b229552ef465a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+695ea735bafd66bb6166e1f706a91816a974b243")]
 [assembly: System.Reflection.AssemblyProductAttribute("240617 환형Q 미완")]
 [assembly: System.Reflection.AssemblyTitleAttribute("240617 환형Q 미완")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -47,29 +47,33 @@ namespace GE_240626_2
             {
                 if (iSize >= iArraySize)
                 {
-                    Console.WriteLine($"List is Full");
+                    Console.WriteLine($"Overflow : List is Full");
+                    return;
                 }
                 else
                 {
-                    tVertex[iSize] = data;
-                    Node node = new Node(data,null);
-                    node.data = data;
-                    node.next = null;
-
-                    if (iSize > 0)
-                    {
-                        node.next = nList[iSize - 1];
-                    }
-
-                    nList[iSize] = node;
+                    tVertex[iSize++] = data;
                 }
-
-                iSize++;
             }
 
-            public void Connect(Node a, Node b)
+            public void Connect(int u, int v)
             {
+                if (iSize <= 0)
+                {
+                    Console.WriteLine($"List is Empty.");
+                    return;
+                }
+                
+                if (u >= iSize || v >= iSize)
+                {
+                    Console.WriteLine($"Index Out of Range.");
+                    return;
+                }
 
+                nList[u] = new Node(tVertex[v], nList[u]);
+                nList[v] = new Node(tVertex[u], nList[v]);
+
+                //Console.WriteLine($"Connect : 【{u},{v}】{nList[u].data} {nList[v].data}");
             }
 
             public void Show()
@@ -91,23 +95,35 @@ namespace GE_240626_2
 
                 for (int i = 0; i < iSize; i++)
                 {
-                    Console.Write($"{tVertex[i]}:");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write($"{tVertex[i]}:\t");
+                    Console.ResetColor();
 
-                    Console.Write($"{nList[i].data} → {nList[i].next}");
+                    Node node = nList[i];
+
+                    while (node != null)
+                    {
+                        Console.Write($"{node.data}\t");
+                        node = node.next!;
+                    }
+
+                    Console.WriteLine($"");
                 }
-
-                Console.WriteLine($"");
             }
         }
 
         static void Main(string[] args)
         {
-            AdjacencyList<int> list = new AdjacencyList<int>();
+            AdjacencyList<char> list = new AdjacencyList<char>();
 
             list.Insert('A');
             list.Insert('B');
             list.Insert('C');
             list.Insert('D');
+
+            list.Connect(0, 1);
+            list.Connect(0, 2);
+            list.Connect(2, 3);
 
             list.Show();
         }

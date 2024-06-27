@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "240626 방향 그래프(인접리스트)/1.0.0": {
+        "runtime": {
+          "240626 방향 그래프(인접리스트).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "240626 방향 그래프(인접리스트)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240626\\240626 무방향 그래프.csproj",
-      "projectName": "240626 무방향 그래프",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240626\\240626 무방향 그래프.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240626\\240626 무방향 그래프(인접행렬).csproj",
+      "projectName": "240626 무방향 그래프(인접행렬)",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240626\\240626 무방향 그래프(인접행렬).csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240626\\obj\\",
       "projectStyle": "PackageReference",

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240626_2\\GE_240626_2.csproj",
-      "projectName": "GE_240626_2",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240626_2\\GE_240626_2.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240626_2\\240626 방향 그래프(인접리스트).csproj",
+      "projectName": "240626 방향 그래프(인접리스트)",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240626_2\\240626 방향 그래프(인접리스트).csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\Desktop\\Unity_GE_1\\GE_240626_2\\obj\\",
       "projectStyle": "PackageReference",
