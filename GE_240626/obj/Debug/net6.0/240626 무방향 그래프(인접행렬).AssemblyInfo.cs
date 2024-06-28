@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("240626 무방향 그래프(인접행렬)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+695ea735bafd66bb6166e1f706a91816a974b243")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3798acfc2457ad3f8d0fc9edfc8befa8ae48b8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("240626 무방향 그래프(인접행렬)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("240626 무방향 그래프(인접행렬)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

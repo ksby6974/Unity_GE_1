@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("240618 벡터")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("240627 이진탐색트리 미완")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3798acfc2457ad3f8d0fc9edfc8befa8ae48b8b")]
-[assembly: System.Reflection.AssemblyProductAttribute("240618 벡터")]
-[assembly: System.Reflection.AssemblyTitleAttribute("240618 벡터")]
+[assembly: System.Reflection.AssemblyProductAttribute("240627 이진탐색트리 미완")]
+[assembly: System.Reflection.AssemblyTitleAttribute("240627 이진탐색트리 미완")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

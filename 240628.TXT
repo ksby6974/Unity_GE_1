@@ -1,0 +1,24 @@
+Node? child = New node();
+
+                            if (parent != null)
+                            {
+                                if (parent.left == node)
+                                {
+                                    parent.left = node.right;
+                                }
+                                else
+                                {
+                                    parent.right = node.left;
+                                }
+                            }
+                            else
+                            {
+                                if (nRoot!.left == node)
+                                {
+                                    nRoot = nRoot!.left;
+                                }
+                                else
+                                {
+                                    nRoot = nRoot!.right;
+                                }
+                            }

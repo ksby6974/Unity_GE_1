@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240626 무방향 그래프(
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240626 방향 그래프(인접리스트)", "GE_240626_2\240626 방향 그래프(인접리스트).csproj", "{40D2FFCA-DD61-44D8-B9EE-6668B4823BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GE_240627", "GE_240627\GE_240627.csproj", "{2353278E-8650-4EAD-A004-8BB3484C35A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240627 이진탐색트리 미완", "GE_240627\240627 이진탐색트리 미완.csproj", "{2353278E-8650-4EAD-A004-8BB3484C35A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
